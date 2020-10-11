@@ -1,0 +1,17 @@
+2020-10-08T08:34:31+00:00 CRITICAL Uncaught Error: Call to undefined function dd() in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\index.php:10
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\italia_solidale\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\italia_solidale\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\index.php alla riga 10
+
+2020-10-08T08:35:13+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\index.php:10
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\index.php(10): printf(Object(WP_Post))
+#1 C:\xampp\htdocs\italia_solidale\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\italia_solidale\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\italia_solidale\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\index.php alla riga 10
+

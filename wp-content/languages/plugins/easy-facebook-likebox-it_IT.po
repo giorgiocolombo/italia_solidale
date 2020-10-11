@@ -1,0 +1,281 @@
+# Translation of Plugins - Easy Social Post Feed &#8211; Social Photos Gallery &#8211; Page Plugin &#8211; Auto PopUp &#8211; MT - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - Easy Social Post Feed &#8211; Social Photos Gallery &#8211; Page Plugin &#8211; Auto PopUp &#8211; MT - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-09-20 14:28:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - Easy Social Post Feed &#8211; Social Photos Gallery &#8211; Page Plugin &#8211; Auto PopUp &#8211; MT - Stable (latest release)\n"
+
+#: facebook/includes/easy-facebook-page-plugin-widget.php:368
+#: facebook/includes/easy-custom-facebook-feed-widget.php:442
+msgid "Use below shortcode to display like box inside pages, posts or in any shortcode aware textarea/editor"
+msgstr "Usa lo shortcode che trovi di seguito per mostrare il \"like box\" all'interno di pagine, post o in altri punti del sito, inserendolo all'interno di aree di testo e/o editor"
+
+#: facebook/includes/easy-facebook-page-plugin-widget.php:142
+msgid "Width:"
+msgstr "Larghezza:"
+
+#: facebook/includes/easy-facebook-page-plugin-widget.php:157
+msgid "Height:"
+msgstr "Altezza:"
+
+#: instagram/admin/views/html-skins-tab.php:111
+#: facebook/admin/views/html-skins-tab.php:98
+msgid "Full Width"
+msgstr "Larghezza piena"
+
+#: facebook/includes/easy-custom-facebook-feed-widget.php:331
+msgid "Posts to display:"
+msgstr "Post da mostrare:"
+
+#: facebook/includes/easy-custom-facebook-feed-widget.php:341
+msgid "Define how many posts you want to display in feed"
+msgstr "Specifica quanti post vuoi mostrare nel feed"
+
+#: facebook/includes/easy-custom-facebook-feed-widget.php:375
+msgid "Show like box"
+msgstr "Mostra il \"like box\""
+
+#: facebook/includes/easy-custom-facebook-feed-widget.php:404
+msgid "Check new posts after every:"
+msgstr "Controlla la presenza di nuovi post ogni:"
+
+#: instagram/admin/views/html-how-to-use-tab.php:237
+#: facebook/includes/easy-custom-facebook-feed-widget.php:427
+#: facebook/admin/views/html-how-to-use-tab.php:296
+msgid "Minutes"
+msgstr "Minuti"
+
+#: instagram/admin/views/html-how-to-use-tab.php:240
+#: facebook/includes/easy-custom-facebook-feed-widget.php:422
+#: facebook/admin/views/html-how-to-use-tab.php:299
+msgid "Hours"
+msgstr "Ore"
+
+#: instagram/admin/views/html-how-to-use-tab.php:243
+#: facebook/includes/easy-custom-facebook-feed-widget.php:432
+#: facebook/admin/views/html-how-to-use-tab.php:302
+msgid "Days"
+msgstr "Giorni"
+
+#: facebook/includes/easy-custom-facebook-feed-widget.php:437
+msgid "Plugin will store the posts in database temporarily and will look for new posts after every selected time duration"
+msgstr "Il plugin memorizzerà i post nel database temporaneamente e verificherà la presenza di nuovi post dopo l'intervallo di tempo specificato"
+
+#: facebook/includes/easy-facebook-page-plugin-widget.php:96
+msgid "Fanpage Url:"
+msgstr "Url della fanpage:"
+
+#: facebook/includes/easy-facebook-page-plugin-widget.php:126
+msgid "Application ID:"
+msgstr "ID applicazione:"
+
+#: facebook/includes/easy-facebook-page-plugin-widget.php:173
+msgid "Locale:"
+msgstr "Localizzazione:"
+
+#: facebook/includes/easy-facebook-page-plugin-widget.php:255
+msgid "Locale (Other):"
+msgstr "Localizzazione (alternativa):"
+
+#: facebook/includes/easy-facebook-page-plugin-widget.php:13
+msgid "Easy Facebook Likebox"
+msgstr "Easy Facebook Likebox"
+
+#: facebook/includes/easy-facebook-page-plugin-widget.php:16
+msgid "Drag and drop this widget for facebook page plugin integration"
+msgstr "Trascina il widget per integrare il plugin della pagina di facebook"
+
+#: facebook/includes/easy-facebook-page-plugin-widget.php:199
+msgid "Language of your page"
+msgstr "Lingua della tua pagina"
+
+#: facebook/includes/easy-facebook-page-plugin-widget.php:266
+msgid "input locale if you can not find yours in dropdown list in this format e.g fr_FR for frecnh."
+msgstr "Inserisci il codice di localizzazione se non riesci a trovarlo nella lista, utilizzando questo formato: it_IT per la lingua italiana."
+
+#: facebook/includes/easy-facebook-page-plugin-widget.php:296
+#: facebook/admin/views/html-how-to-use-tab.php:879
+msgid "Show Faces"
+msgstr "Mostra volti"
+
+#: facebook/includes/easy-facebook-page-plugin-widget.php:312
+msgid "Hide Cover Photo"
+msgstr "Nascondi l'immagine di copertina"
+
+#: facebook/includes/easy-facebook-page-plugin-widget.php:328
+msgid "Show Posts"
+msgstr "Mostra post"
+
+#: facebook/includes/easy-facebook-page-plugin-widget.php:358
+msgid "Use small header"
+msgstr "Utilizza la testata compatta"
+
+#: instagram/includes/mif-insta-helper-functions.php:240
+#: facebook/frontend/includes/core-functions.php:6
+msgid "second"
+msgstr "secondo"
+
+#: instagram/includes/mif-insta-helper-functions.php:241
+#: facebook/frontend/includes/core-functions.php:7
+msgid "seconds"
+msgstr "secondi"
+
+#: instagram/includes/mif-insta-helper-functions.php:242
+#: facebook/frontend/includes/core-functions.php:8
+msgid "minute"
+msgstr "minuto"
+
+#: instagram/includes/mif-insta-helper-functions.php:243
+#: facebook/frontend/includes/core-functions.php:9
+msgid "minutes"
+msgstr "minuti"
+
+#: instagram/includes/mif-insta-helper-functions.php:244
+#: facebook/frontend/includes/core-functions.php:10
+msgid "hour"
+msgstr "ora"
+
+#: instagram/includes/mif-insta-helper-functions.php:245
+#: facebook/frontend/includes/core-functions.php:11
+msgid "hours"
+msgstr "ore"
+
+#: instagram/includes/mif-insta-helper-functions.php:246
+#: facebook/frontend/includes/core-functions.php:12
+msgid "day"
+msgstr "giorno"
+
+#: instagram/includes/mif-insta-helper-functions.php:247
+#: facebook/frontend/includes/core-functions.php:13
+msgid "days"
+msgstr "giorni"
+
+#: instagram/includes/mif-insta-helper-functions.php:248
+#: facebook/frontend/includes/core-functions.php:14
+msgid "week"
+msgstr "settimana"
+
+#: instagram/includes/mif-insta-helper-functions.php:249
+#: facebook/frontend/includes/core-functions.php:15
+msgid "weeks"
+msgstr "settimane"
+
+#: instagram/includes/mif-insta-helper-functions.php:250
+#: facebook/frontend/includes/core-functions.php:16
+msgid "month"
+msgstr "mese"
+
+#: instagram/includes/mif-insta-helper-functions.php:251
+#: facebook/frontend/includes/core-functions.php:17
+msgid "months"
+msgstr "mesi"
+
+#: instagram/includes/mif-insta-helper-functions.php:252
+#: facebook/frontend/includes/core-functions.php:18
+msgid "year"
+msgstr "anno"
+
+#: instagram/includes/mif-insta-helper-functions.php:253
+#: facebook/frontend/includes/core-functions.php:19
+msgid "years"
+msgstr "anni"
+
+#: instagram/includes/mif-insta-helper-functions.php:254
+#: facebook/frontend/includes/core-functions.php:20
+msgid "decade"
+msgstr "decade"
+
+#: instagram/includes/mif-insta-helper-functions.php:257
+#: facebook/frontend/includes/core-functions.php:23
+msgid "ago"
+msgstr "fa"
+
+#: facebook/frontend/views/templates/template-halfwidth.php:66
+#: facebook/frontend/views/templates/template-halfwidth.php:476
+#: facebook/frontend/views/templates/template-fullwidth.php:56
+#: facebook/frontend/views/templates/template-fullwidth.php:463
+#: facebook/frontend/views/templates/template-thumbnail.php:61
+#: facebook/frontend/views/templates/template-thumbnail.php:472
+msgid "Read full story"
+msgstr "Leggi tutta la conversazione"
+
+#: facebook/includes/easy-facebook-page-plugin-widget.php:343
+msgid "Hide CTA button"
+msgstr "Nascondi pulsante \"Call to action\""
+
+#: admin/views/html-admin-page-easy-social-feed.php:121
+#: easy-facebook-likebox.php:224
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: facebook/includes/easy-facebook-page-plugin-widget.php:81
+#: facebook/includes/easy-custom-facebook-feed-widget.php:174
+msgid "Title:"
+msgstr "Titolo:"
+
+#: facebook/admin/views/html-skins-tab.php:92
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: facebook/admin/views/html-auto-popup-tab.php:139
+msgid "Like box pup up advanced settings"
+msgstr "Impostazioni avanzate del pop up \"like box\""
+
+#: facebook/admin/views/html-auto-popup-tab.php:79
+msgid "Enable PopUp"
+msgstr "Abilita il PopUp"
+
+#: facebook/admin/views/html-auto-popup-tab.php:89
+msgid "PopUp delay after page load"
+msgstr "Ritardo del PopUp dopo il caricamento della pagina"
+
+#: facebook/admin/views/html-auto-popup-tab.php:92
+msgid "Delay in miliseconds. 1000 ms = 1 second."
+msgstr "Ritardo in millisecondi. 1000 ms = 1 secondo."
+
+#: facebook/admin/views/html-auto-popup-tab.php:103
+msgid "PopUp Width"
+msgstr "Larghezza PopUp"
+
+#: facebook/admin/views/html-auto-popup-tab.php:106
+msgid "Width in pixels."
+msgstr "Larghezza in pixel."
+
+#: facebook/admin/views/html-auto-popup-tab.php:120
+msgid "Height in pixels."
+msgstr "Altezza in pixel."
+
+#: facebook/admin/views/html-auto-popup-tab.php:131
+msgid "PopUp content"
+msgstr "Contenuto del PopUp"
+
+#: facebook/admin/views/html-auto-popup-tab.php:180
+msgid "Display PopUp on home page only."
+msgstr "Mostra il PopUp solo nella home page."
+
+#: facebook/admin/views/html-auto-popup-tab.php:207
+msgid "Close button act as never show again"
+msgstr "Il bottone di chiusura impedirà di mostrare nuovamente il PopUp"
+
+#: facebook/admin/views/html-auto-popup-tab.php:216
+msgid "Do not display on mobile devices"
+msgstr "Non mostrare sui dispositivi mobili"
+
+#: facebook/admin/views/html-admin-page-easy-facebook-likebox.php:53
+msgid "Auto PopUp"
+msgstr "PopUp automatico"
+
+#: facebook/includes/easy-custom-facebook-feed-widget.php:14
+#: facebook/admin/includes/efbl-customizer.php:88
+msgid "Easy Facebook Feed"
+msgstr "Easy Facebook Feed"
+
+#: facebook/includes/easy-custom-facebook-feed-widget.php:17
+msgid "Drag and drop this widget for facebook feed integration"
+msgstr "Trascina il widget per integrare il feed di facebook"

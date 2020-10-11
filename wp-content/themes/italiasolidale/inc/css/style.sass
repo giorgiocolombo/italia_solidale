@@ -1,0 +1,794 @@
+// General
+
+
+    
+* 
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+html 
+  scroll-behavior: smooth
+  background-color: #e4e5e5
+body 
+  background-color: #fff
+  font-family: "Quicksand", sans-serif
+  letter-spacing: 0
+  font-weight: 500
+  margin: auto
+  overflow-x: hidden
+  margin-top: 69.38px
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav,
+footer 
+  font-family: "Raleway", sans-serif
+  font-weight: 500
+  color: #171d61
+  letter-spacing: 1.5px
+h2
+    font-size: 1.5rem
+    text-transform: uppercase
+h3
+    font-size: 1.3rem
+    text-transform: uppercase
+h4,h4,h6
+    font-size: 1.1rem
+h1,h2,h3,h4,h5,h6
+    margin: 1rem auto
+p
+    margin: 1rem auto
+    line-height: 1.5
+    font-size: 1rem
+    font-family: 'Quicksand', sans-serif
+a:hover 
+  opacity: 0.8
+img
+    max-width: 100%
+    height: auto
+
+
+// Header & Footer
+
+
+header 
+    width: 100%
+    display: flex
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(23, 29, 97, 0.25)
+    -moz-box-shadow: 0px 0px 40px 0px rgba(23, 29, 97, 0.25)
+    box-shadow: 0px 0px 40px 0px rgba(23, 29, 97, 0.25)
+    text-transform: uppercase
+    justify-content: space-between
+    padding: 0.2rem 2rem
+    background-color: #fff
+    align-items: flex-start
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 9  
+
+    .logo
+        height: 50px
+        width: auto
+        margin: 5px 0
+    
+    .hamburger
+        display: none
+        z-index: 999
+        width: 25px
+        height: 20px
+        position: relative
+        -webkit-transform: rotate(0deg)
+        -moz-transform: rotate(0deg)
+        -o-transform: rotate(0deg)
+        transform: rotate(0deg)
+        -webkit-transition: .5s ease-in-out
+        -moz-transition: .5s ease-in-out
+        -o-transition: .5s ease-in-out
+        transition: .5s ease-in-out
+        cursor: pointer
+
+        span
+            display: block
+            position: absolute
+            height: 3.5px
+            width: 100%
+            background: #171d61
+            border-radius: 20px
+            opacity: 1
+            left: 0
+            -webkit-transform: rotate(0deg)
+            -moz-transform: rotate(0deg)
+            -o-transform: rotate(0deg)
+            transform: rotate(0deg)
+            -webkit-transition: .25s ease-in-out
+            -moz-transition: .25s ease-in-out
+            -o-transition: .25s ease-in-out
+            transition: .25s ease-in-out   
+
+        span:nth-child(1)
+            top: 0px
+        
+
+        span:nth-child(2), span:nth-child(3) 
+            top: 8px
+        
+
+        span:nth-child(4) 
+            top: 16px
+        
+    .ham_open 
+        span:nth-child(1) 
+            top: 18px
+            width: 0%
+            left: 50%
+            
+        span:nth-child(2) 
+            -webkit-transform: rotate(45deg)
+            -moz-transform: rotate(45deg)
+            -o-transform: rotate(45deg)
+            transform: rotate(45deg)
+        
+        span:nth-child(3) 
+            -webkit-transform: rotate(-45deg)
+            -moz-transform: rotate(-45deg)
+            -o-transform: rotate(-45deg)
+            transform: rotate(-45deg)
+        
+        span:nth-child(4) 
+            top: 18px
+            width: 0%
+            left: 50%
+        
+
+    nav
+        background-color: #fff
+        margin-top: 17px
+        ul
+            display: flex
+            justify-content: center
+            align-items: baseline
+            list-style-type: none
+            
+            .pll-parent-menu-item
+                margin: 0 -40px 0 -30px
+
+            li
+                margin: 0.5rem
+                position: relative
+                text-align: center
+                width: 120px
+                a
+                    text-decoration: none
+                    text-transform: uppercase
+                ul
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    margin-top: 1rem
+                    opacity: 0
+                    overflow: hidden
+                    max-height: 0
+                    margin: 0
+                    transition: max-height 0.5s, margin 0.5s, opacity 0.2s
+                    font-size: 0.85rem
+
+                    li
+                        margin: 0.8rem auto
+        li:hover
+            ul
+                margin-top: 1rem
+                max-height: 100vh
+                opacity: 1
+                transition: max-height 1.5s, margin 0s, opacity 1s
+
+footer
+    background-color: #171d61
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: 3rem
+    flex-wrap: wrap
+
+    div
+        width: 200px
+        display: flex
+        justify-content: center
+    *
+        margin: 1rem 1.5rem
+    .fb-link
+        height: 45px
+        width: auto
+    img
+        height: 70px
+        width: auto
+
+    .footer_text
+        flex-direction: column
+        p, a
+            color: #fff
+            font-size: 0.7rem
+            text-decoration: none
+            margin: 0.5rem
+            text-align: left
+        a
+            text-transform: uppercase
+
+@media screen and ( max-width: 1150px )
+    header
+        align-items:  center
+        height: 69.38px
+        .hamburger
+            display: block
+        nav
+            width: 0
+            height: 0
+            visibility: hidden
+            right: -200vh
+            top: 0
+            transition: right 0.2s
+            margin: 0
+            padding: 0
+            position: absolute
+        
+        .nav_open
+            display: block
+            position: absolute
+            visibility: visible
+            transition: right 0.3s
+            right: 0
+            top: 0
+            margin: 0
+            width: 100vw
+            height: 100vh
+            z-index: 998
+
+            ul
+                flex-direction: column
+                align-items: center
+                justify-content: center
+                height: 100%
+                width: 100%
+
+                li
+                    width: auto
+                    margin:  1rem auto
+
+                    ul
+                        padding: 0
+                        margin: 0
+
+                    &:hover ul
+                        padding: 1rem 0
+                        li
+                            a
+                                border: none
+
+                    &:hover a
+                        border-bottom: 1px solid #171d61
+
+@media screen and ( max-width: 850px )
+    header
+        padding: 0 1rem
+    footer
+        flex-wrap: wrap
+        div
+            width: 100%
+            margin: 0
+        .footer_text
+            text-align: center
+
+// Index
+
+
+.home_header
+    height: calc(100vh - 69.38px)
+    display: flex
+    flex-direction: column
+    .header_img
+        width: 100%
+        height: 100%
+        object-fit: cover
+        padding: 1rem
+    .header_text
+        font-size: 2rem
+        text-align: center
+        max-width: 1000px
+        margin: auto
+        margin-bottom: 1rem
+        line-height: 1.3
+
+@media screen and ( max-width: 1000px )
+    .home_header
+        .header_text
+            font-size: 1.7rem
+            margin: 0 1rem
+
+@media screen and ( max-width: 850px )
+    .home_header
+        .header_img
+            padding: 0 0 1rem 0
+        .header_text
+            font-size: 1.3rem
+            margin: 0 1rem
+            margin-bottom: 1rem
+
+
+
+// Components and blocks
+
+
+.woocommerce_picked
+    background-color: #fff
+    box-shadow: 0px 0px 40px 0px rgba(23, 29, 97, 0.25)
+    max-width: 1200px
+    padding: 2rem 2rem 1rem 2rem
+    margin: 6rem auto
+    border-radius: 10px
+    display: flex
+    align-items: stretch
+    justify-content: center
+    flex-wrap: wrap
+
+    h2,h3
+        width: 100%
+        text-align: center
+    h3
+        letter-spacing: 0
+        margin: 0.5rem 0 3rem 0
+        font-weight: 300
+    a
+        width: 33%
+        padding: 0 2rem
+        text-decoration: none
+        font-family: 'Quicksand'
+        margin-bottom: 2rem
+
+        h3
+            text-align: center
+            margin: 1rem 0
+            font-weight: 500
+
+        img
+            width: 100%
+            height: 300px
+            object-fit: cover
+        p
+            text-decoration: none
+            font-family: 'Quicksand', sans-serif
+            font-size: 0.8rem
+            line-height: 160%
+            text-align: center
+    .button
+        width: 100%
+        display: flex
+        justify-content: center
+
+        a
+            text-transform: uppercase
+            border: 1px solid #171d61
+            border-radius: 10px
+            text-align: center
+            width: auto
+            padding: 1rem
+            letter-spacing: 1px
+            transition: all 0.1s
+
+            &:hover
+                background-color: #171d61
+                color: #fff
+                opacity: 1
+                transition: all 0.1s
+
+@media screen and ( max-width: 1250px )
+    .woocommerce_picked
+        max-width: 95%
+
+@media screen and ( max-width: 950px )
+    .woocommerce_picked
+        margin: 1rem auto
+        a
+            padding: 0 1rem
+
+@media screen and ( max-width: 750px )
+    .woocommerce_picked
+        a
+            width: 100%
+    .home
+        .woocommerce_picked
+            margin-top: 0
+
+
+.wp-block-buttons
+    display: flex
+    justify-content: center
+    margin: 3rem auto
+    
+    .wp-block-button__link
+        text-transform: uppercase
+        border: 1px solid #171d61
+        border-radius: 10px
+        text-align: center
+        width: auto
+        padding: 1rem
+        letter-spacing: 1px
+        transition: all 0.1s
+        background-color: #fff
+        color:#171d61
+        margin: auto
+
+        &:hover
+            background-color: #171d61
+            color: #fff
+            opacity: 1
+            transition: all 0.1s
+
+.block_img
+    display: grid
+    grid-template-areas: "immagine testi"
+    align-items: stretch
+    max-width: 1200px
+    margin: 3rem auto
+    img
+        grid-area: immagine
+        width: 350px
+        height: 350px
+        object-fit: cover
+        margin: 1rem
+            transition: all 0.3s
+    .block_img_text
+        grid-area: testi
+        margin: 2rem
+        display: flex
+        align-items: left
+        justify-content: space-around
+        flex-direction: column
+        h2
+            margin: 0
+        p
+            margin: 2rem 0
+            line-height: 1.8
+.block_img_right
+    grid-template-areas: "testi immagine"
+
+@media screen and ( max-width: 1400px )
+    .page-template-page-carisma
+        .block_img
+            grid-template-areas: "immagine" "testi"
+            margin-bottom: 3rem
+            
+            img
+                width: 350px
+                height: 350px
+                object-fit: cover
+                margin: auto
+                margin-bottom: 2.5rem
+                border-radius: 100%
+                transition: all 0.3s
+            .block_img_text
+                p
+                    margin-bottom: 0
+
+            .block_img_text
+                margin: 0
+                padding: 0 2rem
+                width: 100%
+                text-align: center
+                margin-bottom: 2.5rem
+
+@media screen and ( max-width: 950px )
+    .block_img
+        grid-template-areas: "immagine" "testi"
+        margin-bottom: 3rem
+        
+        img
+            width: 350px
+            height: 350px
+            object-fit: cover
+            margin: auto
+            margin-bottom: 2.5rem
+            border-radius: 100%
+            transition: all 0.3s
+        .block_img_text
+            p
+                margin-bottom: 0
+
+        .block_img_text
+            margin: 0
+            padding: 0 2rem
+            width: 100%
+            text-align: center
+            margin-bottom: 2.5rem
+        
+@media screen and ( max-width: 750px )
+    .block_img
+        img
+            width: 250px
+            height: 250px
+
+
+//  Carisma
+
+
+.page-template-page-carisma
+    display: grid
+    grid-template-columns: 1fr 2fr 2fr
+    grid-template-areas: "header header header" "cover cover cover" "sidebar article article" "footer footer footer"
+
+    header
+        grid-area: header
+    footer
+        grid-area: footer
+    article
+        grid-area: article
+        width: 95%
+        overflow: hidden
+        padding: 1rem 3rem
+        margin: auto
+
+        h2
+            margin: 2rem auto
+        
+        .wp-block-image
+            text-align: center
+            margin: 3rem auto
+        
+        .wp-block-jetpack-slideshow
+            margin: 3rem auto
+            .wp-block-jetpack-slideshow_container
+                figure
+                    background-color: #fff
+                .wp-block-jetpack-slideshow_button-next, .wp-block-jetpack-slideshow_button-prev, .wp-block-jetpack-slideshow_button-pause
+                    background-color: #444
+                    border-radius: 100%
+                    opacity: 0.3
+                    transition: all 0.1s
+                    &:hover
+                        background-color: #171D61
+                        opacity: 1
+                        transition: all 0.2s
+                    &::after
+                        color: #000
+                .swiper-pagination-bullet
+                    background-color: #fff !important
+                    border: 1px solid #171d61 !important
+                    &:hover
+                        background-color: #171d61 !important
+                        opacity: 0.6 !important
+                .swiper-pagination-bullet-active
+                    background-color: #171d61 !important
+                    transition: all 0.2s !important
+                
+
+        .wp-block-embed-youtube
+            max-width: 600px
+            margin: 3rem auto
+
+            iframe
+                border-radius: 10px
+        .wp-block-webfactory-map
+            margin: 3rem auto
+            max-width: 600px
+
+            iframe
+                border-radius: 10px
+    aside
+        grid-area: sidebar
+        width: 100%
+        padding: 0 1rem
+        padding-bottom: 2rem
+        position: relative
+        display: flex
+        flex-direction: column
+        align-items: center
+
+        .aside_content
+            display: flex
+            position: sticky
+            top: 70px
+            left: 0
+            align-items: center
+            padding: 2rem 0
+
+            sidebar
+                height: 100%
+                box-shadow: 0px 0px 40px 0px rgba(23, 29, 97, 0.25)
+                border-radius: 10px
+                overflow: hidden
+                border: none
+                
+        img
+            margin: 2rem 0
+
+    .cover
+        grid-area: cover
+        height: 80vh
+        width: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        position: relative
+
+        img
+            position: absolute
+            left: 0
+            top: 0
+            width: 100%
+            height: 100%
+            object-fit: cover
+            z-index: 1
+
+        .opacity_cover
+            position: absolute
+            left: 0
+            top: 0
+            width: 100%
+            height: 100%
+            z-index: 2
+            background-color: #00000040
+        h2
+            z-index: 3
+            color: #fff
+            font-size: 2.5rem
+            text-shadow: 1px 2px 10px #000
+
+@media screen and ( max-width: 1250px )
+    .page-template-page-carisma
+        .woocommerce_picked
+            margin: 1rem auto
+            a
+                width: 100%
+                padding: 0 1rem
+            .button
+                width: 100%
+                display: flex
+                justify-content: center
+
+                a
+                    text-transform: uppercase
+                    border: 1px solid #171d61
+                    border-radius: 10px
+                    text-align: center
+                    width: auto
+                    padding: 1rem
+                    letter-spacing: 1px
+                    transition: all 0.1s
+
+                    &:hover
+                        background-color: #171d61
+                        color: #fff
+                        opacity: 1
+                        transition: all 0.1s
+
+@media screen and ( max-width: 1000px )
+    .page-template-page-carisma
+        grid-template-areas: "header header header" "cover cover cover" "sidebar sidebar sidebar" "article article article" "footer footer footer"
+
+        aside
+            padding: 1rem
+            
+            img
+                margin: 0 auto
+                max-width: 500px
+                height: auto
+            .aside_content
+                display: none
+
+@media screen and ( max-width: 650px )
+    .page-template-page-carisma
+        aside
+            img
+                max-width: 300px
+                width: 100%
+
+
+// Contatti
+
+
+.page-template-page-contatti
+    padding-top: 0.1rem
+    .contact_form_container
+        display: flex
+        background-color: #fff
+        box-shadow: 0px 0px 40px 0px rgba(23, 29, 97, 0.25)
+        max-width: 1200px
+        border-radius: 10px
+        margin: 3rem auto 5rem
+        overflow: hidden
+        position: relative
+
+        img
+            width: 40%
+            object-fit: cover
+        .form_area
+            width: 60%
+            padding: 3rem
+            h2,h5
+                text-align: center
+            h5
+                text-transform: uppercase
+            p
+                margin: 0
+            .wpcf7
+                width: 100%
+                max-width: 500px
+                margin: auto
+                margin-top: 3rem
+
+                *
+                    width: 100%
+                    text-align: center
+                .ajax-loader
+                    display: block
+                    margin: auto
+                    width: 15px
+                label
+                    color: #171d61
+                    font-family: 'Quicksand', sans-serif
+                    font-size: 1rem
+                    font-weight: 400
+
+                    input, textarea
+                        border-top: none
+                        border-left: none
+                        border-right: none
+                        border-bottom: 1px solid #171d61
+                        padding: 0.5rem
+                        margin: 0.5rem auto
+
+                    .wpcf7-form-control
+                        font-family: 'Quicksand', sans-serif
+                        color: #171d61
+
+                .wpcf7-submit
+                    width: 200px
+                    text-transform: uppercase
+                    border: 1px solid #171d61
+                    border-radius: 10px
+                    text-align: center
+                    padding: 1rem
+                    letter-spacing: 1px
+                    transition: all 0.1s
+                    background-color: #fff
+
+                    &:hover
+                        background-color: #171d61
+                        color: #fff
+                        opacity: 1
+                        transition: all 0.1s
+    p
+        max-width: 800px
+        margin: inherit auto
+        text-align: center
+    .wp-block-webfactory-map
+        margin-top: 5rem
+@media screen and ( max-width: 1250px )
+    .page-template-page-contatti
+        .contact_form_container
+            max-width: 95%
+            margin: 2rem auto 5rem
+@media screen and ( max-width: 950px )
+    .page-template-page-contatti
+        .contact_form_container
+            img
+                width: 30%
+            .form_area
+                width: 70%
+@media screen and ( max-width: 800px )
+    .page-template-page-contatti
+        p
+            margin: 2rem
+@media screen and ( max-width: 650px )
+    .page-template-page-contatti
+        .contact_form_container
+            flex-wrap: wrap
+            .form_area
+                padding: 0.5rem 2rem
+            img
+                width: 100%
+                height: 200px
+            .form_area
+                width: 100%

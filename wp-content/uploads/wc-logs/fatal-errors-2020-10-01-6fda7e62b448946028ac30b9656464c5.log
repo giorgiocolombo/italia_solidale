@@ -1,0 +1,41 @@
+2020-10-01T21:04:15+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\index.php alla riga 7
+
+2020-10-01T21:36:09+00:00 CRITICAL Uncaught Error: Call to undefined function remove_menu_page() in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\functions.php:10
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(287): ITAS_setup('')
+#1 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\italia_solidale\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\italia_solidale\wp-settings.php(524): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\italia_solidale\wp-config.php(93): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\italia_solidale\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\italia_solidale\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\italia_solidale\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\functions.php alla riga 10
+
+2020-10-01T21:36:11+00:00 CRITICAL Uncaught Error: Call to undefined function remove_menu_page() in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\functions.php:10
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(287): ITAS_setup('')
+#1 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\italia_solidale\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\italia_solidale\wp-settings.php(524): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\italia_solidale\wp-config.php(93): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\italia_solidale\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\italia_solidale\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\italia_solidale\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\functions.php alla riga 10
+
+2020-10-01T21:37:33+00:00 CRITICAL Uncaught Error: Call to undefined function remove_menu_page() in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\functions.php:16
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(287): ITAS_setup('')
+#1 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\italia_solidale\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\italia_solidale\wp-settings.php(524): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\italia_solidale\wp-config.php(93): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\italia_solidale\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\italia_solidale\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\italia_solidale\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\functions.php alla riga 16
+

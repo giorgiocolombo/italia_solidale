@@ -1,0 +1,6 @@
+2020-10-05T14:41:52+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\index.php alla riga 12
+
+2020-10-05T14:42:26+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\index.php alla riga 12
+
+2020-10-05T14:53:48+00:00 CRITICAL syntax error, unexpected 'define' (T_STRING) in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\functions.php alla riga 5
+

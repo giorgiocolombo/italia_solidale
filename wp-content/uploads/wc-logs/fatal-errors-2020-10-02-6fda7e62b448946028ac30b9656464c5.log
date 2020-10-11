@@ -1,0 +1,264 @@
+2020-10-02T15:08:39+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\index.php alla riga 13
+
+2020-10-02T15:16:53+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\index.php alla riga 16
+
+2020-10-02T15:21:09+00:00 CRITICAL syntax error, unexpected '=', expecting ')' in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\index.php alla riga 15
+
+2020-10-02T15:21:23+00:00 CRITICAL syntax error, unexpected '=', expecting ')' in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\index.php alla riga 15
+
+2020-10-02T15:21:29+00:00 CRITICAL syntax error, unexpected '=', expecting ')' in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\index.php alla riga 15
+
+2020-10-02T15:25:57+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_category(), 0 passed in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\index.php on line 24 and at least 1 expected in C:\xampp\htdocs\italia_solidale\wp-includes\category.php:91
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\index.php(24): get_category()
+#1 C:\xampp\htdocs\italia_solidale\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\italia_solidale\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\italia_solidale\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\italia_solidale\wp-includes\category.php alla riga 91
+
+2020-10-02T15:25:58+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_category(), 0 passed in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\index.php on line 24 and at least 1 expected in C:\xampp\htdocs\italia_solidale\wp-includes\category.php:91
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\index.php(24): get_category()
+#1 C:\xampp\htdocs\italia_solidale\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\italia_solidale\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\italia_solidale\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\italia_solidale\wp-includes\category.php alla riga 91
+
+2020-10-02T15:26:16+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\index.php alla riga 24
+
+2020-10-02T17:25:29+00:00 CRITICAL syntax error, unexpected ''acf/choosen_products'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\functions.php alla riga 58
+
+2020-10-02T17:25:29+00:00 CRITICAL syntax error, unexpected ''acf/choosen_products'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\functions.php alla riga 58
+
+2020-10-02T17:29:45+00:00 CRITICAL syntax error, unexpected ''acf/chosen_products'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\functions.php alla riga 58
+
+2020-10-02T17:29:45+00:00 CRITICAL syntax error, unexpected ''acf/chosen_products'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\functions.php alla riga 58
+
+2020-10-02T17:56:00+00:00 CRITICAL syntax error, unexpected ',', expecting ';' in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\functions.php alla riga 59
+
+2020-10-02T17:56:00+00:00 CRITICAL syntax error, unexpected ',', expecting ';' in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\functions.php alla riga 59
+
+2020-10-02T17:56:46+00:00 CRITICAL syntax error, unexpected ',' in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\functions.php alla riga 60
+
+2020-10-02T17:57:06+00:00 CRITICAL syntax error, unexpected ',', expecting ';' in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\functions.php alla riga 60
+
+2020-10-02T17:57:15+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\functions.php alla riga 60
+
+2020-10-02T17:57:24+00:00 CRITICAL syntax error, unexpected ',', expecting ';' in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\functions.php alla riga 60
+
+2020-10-02T17:57:27+00:00 CRITICAL syntax error, unexpected ',', expecting ';' in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\functions.php alla riga 60
+
+2020-10-02T19:06:25+00:00 CRITICAL Cannot redeclare ITAS_acf_init_block_types() (previously declared in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\functions.php:67) in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\functions.php alla riga 82
+
+2020-10-02T19:08:48+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:89
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php(1): the_field('chosen_product_...')
+#1 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(364): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(303): acf_render_block(Array, '', false, 40)
+#3 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-block.php(217): acf_rendered_block(Array, '', false)
+#4 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(720): WP_Block->render()
+#5 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(758): render_block(Array)
+#6 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(287): do_blocks('<!-- wp:buttons...')
+#7 C:\xa in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php alla riga 89
+
+2020-10-02T19:08:50+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:89
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php(1): the_field('chosen_product_...')
+#1 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(364): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(303): acf_render_block(Array, '', false, 40)
+#3 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-block.php(217): acf_rendered_block(Array, '', false)
+#4 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(720): WP_Block->render()
+#5 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(758): render_block(Array)
+#6 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(287): do_blocks('<!-- wp:buttons...')
+#7 C:\xa in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php alla riga 89
+
+2020-10-02T19:09:40+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:89
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php(1): the_field('chosen_product_...')
+#1 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(364): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(303): acf_render_block(Array, '', false, 140)
+#3 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-block.php(217): acf_rendered_block(Array, '', false)
+#4 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(720): WP_Block->render()
+#5 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(758): render_block(Array)
+#6 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(287): do_blocks('<!-- wp:buttons...')
+#7 C:\x in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php alla riga 89
+
+2020-10-02T19:09:50+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:89
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php(1): the_field('chosen_product_...')
+#1 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(364): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(303): acf_render_block(Array, '', false, 40)
+#3 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-block.php(217): acf_rendered_block(Array, '', false)
+#4 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(720): WP_Block->render()
+#5 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(758): render_block(Array)
+#6 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(287): do_blocks('<!-- wp:buttons...')
+#7 C:\xa in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php alla riga 89
+
+2020-10-02T19:09:58+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:89
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php(1): the_field('chosen_product_...')
+#1 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(364): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(303): acf_render_block(Array, '', false, 40)
+#3 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-block.php(217): acf_rendered_block(Array, '', false)
+#4 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(720): WP_Block->render()
+#5 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(758): render_block(Array)
+#6 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(287): do_blocks('<!-- wp:buttons...')
+#7 C:\xa in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php alla riga 89
+
+2020-10-02T19:10:09+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:89
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php(1): the_field('chosen_product_...')
+#1 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(364): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(303): acf_render_block(Array, '', false, 40)
+#3 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-block.php(217): acf_rendered_block(Array, '', false)
+#4 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(720): WP_Block->render()
+#5 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(758): render_block(Array)
+#6 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(287): do_blocks('<!-- wp:buttons...')
+#7 C:\xa in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php alla riga 89
+
+2020-10-02T19:10:19+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:89
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php(1): the_field('chosen_product_...')
+#1 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(364): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(303): acf_render_block(Array, '', false, 40)
+#3 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-block.php(217): acf_rendered_block(Array, '', false)
+#4 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(720): WP_Block->render()
+#5 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(758): render_block(Array)
+#6 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(287): do_blocks('<!-- wp:buttons...')
+#7 C:\xa in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php alla riga 89
+
+2020-10-02T19:10:28+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:89
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php(1): the_field('chosen_product_...')
+#1 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(364): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(303): acf_render_block(Array, '', false, 40)
+#3 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-block.php(217): acf_rendered_block(Array, '', false)
+#4 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(720): WP_Block->render()
+#5 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(758): render_block(Array)
+#6 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(287): do_blocks('<!-- wp:buttons...')
+#7 C:\xa in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php alla riga 89
+
+2020-10-02T19:11:23+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:89
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php(1): the_field('chosen_product_...')
+#1 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(364): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(303): acf_render_block(Array, '', false, 40)
+#3 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-block.php(217): acf_rendered_block(Array, '', false)
+#4 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(720): WP_Block->render()
+#5 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(758): render_block(Array)
+#6 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(287): do_blocks('<!-- wp:buttons...')
+#7 C:\xa in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php alla riga 89
+
+2020-10-02T19:11:25+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:89
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php(1): the_field('chosen_product_...')
+#1 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(364): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(303): acf_render_block(Array, '', false, 40)
+#3 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-block.php(217): acf_rendered_block(Array, '', false)
+#4 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(720): WP_Block->render()
+#5 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(758): render_block(Array)
+#6 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(287): do_blocks('<!-- wp:buttons...')
+#7 C:\xa in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php alla riga 89
+
+2020-10-02T19:11:36+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:89
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php(1): the_field('chosen_product_...')
+#1 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(364): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(303): acf_render_block(Array, '', true, '40')
+#3 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(576): acf_rendered_block(Array, '', true, '40')
+#4 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(287): acf_ajax_fetch_block('')
+#5 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\italia_solidale\wp-inc in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php alla riga 89
+
+2020-10-02T19:15:32+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:89
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php(1): the_field('chosen_product_...')
+#1 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(364): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(303): acf_render_block(Array, '', false, 40)
+#3 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-block.php(217): acf_rendered_block(Array, '', false)
+#4 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(720): WP_Block->render()
+#5 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(758): render_block(Array)
+#6 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(287): do_blocks('<!-- wp:buttons...')
+#7 C:\xa in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php alla riga 89
+
+2020-10-02T19:15:34+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:89
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php(1): the_field('chosen_product_...')
+#1 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(364): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(303): acf_render_block(Array, '', false, 40)
+#3 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-block.php(217): acf_rendered_block(Array, '', false)
+#4 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(720): WP_Block->render()
+#5 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(758): render_block(Array)
+#6 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(287): do_blocks('<!-- wp:buttons...')
+#7 C:\xa in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php alla riga 89
+
+2020-10-02T19:15:36+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:89
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php(1): the_field('chosen_product_...')
+#1 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(364): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(303): acf_render_block(Array, '', false, 40)
+#3 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-block.php(217): acf_rendered_block(Array, '', false)
+#4 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(720): WP_Block->render()
+#5 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(758): render_block(Array)
+#6 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(287): do_blocks('<!-- wp:buttons...')
+#7 C:\xa in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php alla riga 89
+
+2020-10-02T19:15:55+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:89
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php(1): the_field('chosen_product_...')
+#1 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(364): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(303): acf_render_block(Array, '', false, 40)
+#3 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-block.php(217): acf_rendered_block(Array, '', false)
+#4 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(720): WP_Block->render()
+#5 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(758): render_block(Array)
+#6 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(287): do_blocks('<!-- wp:buttons...')
+#7 C:\xa in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php alla riga 89
+
+2020-10-02T19:16:02+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:89
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php(1): the_field('chosen_product_...')
+#1 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(364): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(303): acf_render_block(Array, '', false, 40)
+#3 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-block.php(217): acf_rendered_block(Array, '', false)
+#4 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(720): WP_Block->render()
+#5 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(758): render_block(Array)
+#6 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(287): do_blocks('<!-- wp:buttons...')
+#7 C:\xa in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php alla riga 89
+
+2020-10-02T19:19:16+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:85
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php(85): implode(', ', Array)
+#1 C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php(1): the_field('chosen_product_...')
+#2 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(364): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(303): acf_render_block(Array, '', false, 40)
+#4 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-block.php(217): acf_rendered_block(Array, '', false)
+#5 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(720): WP_Block->render()
+#6 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php( in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php alla riga 85
+
+2020-10-02T19:21:49+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:89
+Stack trace:
+#0 C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php(1): the_field('chosen_product_...')
+#1 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(364): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(303): acf_render_block(Array, '', false, 40)
+#3 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-block.php(217): acf_rendered_block(Array, '', false)
+#4 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(720): WP_Block->render()
+#5 C:\xampp\htdocs\italia_solidale\wp-includes\blocks.php(758): render_block(Array)
+#6 C:\xampp\htdocs\italia_solidale\wp-includes\class-wp-hook.php(287): do_blocks('<!-- wp:buttons...')
+#7 C:\xa in C:\xampp\htdocs\italia_solidale\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php alla riga 89
+
+2020-10-02T19:32:15+00:00 CRITICAL syntax error, unexpected '$loop' (T_VARIABLE) in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php alla riga 12
+
+2020-10-02T19:32:45+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php alla riga 7
+
+2020-10-02T19:33:20+00:00 CRITICAL syntax error, unexpected '$loop' (T_VARIABLE) in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php alla riga 8
+
+2020-10-02T19:33:56+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php alla riga 6
+
+2020-10-02T19:36:02+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php alla riga 6
+
+2020-10-02T19:36:29+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php alla riga 6
+
+2020-10-02T19:38:33+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ')' in C:\xampp\htdocs\italia_solidale\wp-content\themes\italiasolidale\template_parts\blocks\chosen_products\chosen_products.php alla riga 7
+
