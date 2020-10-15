@@ -210,6 +210,7 @@ footer
     img
         height: 70px
         width: auto
+        max-width: 200px !important
 
     .footer_text
         flex-direction: column
@@ -284,7 +285,8 @@ footer
             width: 100%
             margin: 0
         .footer_text
-            text-align: center
+            *
+                text-align: center !important
 
 // Index
 
@@ -585,8 +587,12 @@ footer
         width: 95%
         overflow: hidden
         padding: 1rem 3rem
-        margin: auto
+        margin: 0 auto 2rem 
 
+        strong
+            font-weight: bold
+
+    
         h2
             margin: 2rem auto
         
@@ -858,9 +864,342 @@ footer
                 width: 100%
 
 
-// Woocommerce
+// Woocommerce      
+.woocommerce-account
+    h2
+        margin-top: 2rem
+        text-align: center
+    .woocommerce-form-login 
+        max-width: 1200px
+        margin: 2rem auto !important
+    .woocommerce
+        max-width: 1200px
+        margin: auto
+        padding: 2rem 1rem
+        mark
+            color: #171d61 !important
+            background-color: #fff !important
+            font-weight: bold
+            font-size: 1.2rem
+            padding: 0.5rem 1rem
+            border-radius: 10px
+        .shop_table, address
+                border-radius: 10px
+                border: 1px solid #171d61 !important
+                .cart-subtotal, .order-total, .product-name, .product-total
+                    color: #171d61
+                    text-transform: uppercase
+                .order_item, .download-product
+                    a
+                        text-decoration: none !important
+                        color: #171d61 !important
+                .download-file
+                    a
+                        background-color: #171d61 !important
+                        border-radius: 10px
+        .woocommerce-Address-title 
+            margin-bottom: 2rem !important
+            display: flex
+            align-items: center
+        address
+            color: #171d61 !important
+            padding: 1rem
+            text-align: center
+        .woocommerce-MyAccount-navigation
+            text-transform: uppercase
+            color: #171d61
+            margin-bottom: 3rem
+            *
+                margin: 1.5rem auto
+                text-decoration: none !important
+            .is-active
+                text-decoration: underline !important
+                *
+                    font-weight: bold
+        .button
+            border-radius: 10px
+            background-color: #171d61 !important
+            border: none
+            color: #fff !important
+            padding: 0.8rem
 
+            &:hover
+                opacity: 0.8
+.woocommerce-cart
+    .woocommerce
+        min-height: calc(100vh - 320px) 
 .woocommerce
+    min-height: calc(100vh - 320px)
+    .woocommerce-message
+            background-color: #171d61 !important
+            color: #fff
+            border-top: none
+
+            &::before
+                color:#fff
+            a
+                border-radius: 10px !important
+                background-color: #fff
+                color: #171d61
+
+                &:hover
+                    opacity: 0.8 
+    .woocommerce-order
+        max-width: 1200px
+        margin: auto
+        padding: 2rem 1rem
+        text-align: center
+        .woocommerce-order-details
+            padding-top: 2rem !important
+            .shop_table 
+                border-radius: 10px
+                border: 1px solid #171d61 !important
+                .cart-subtotal, .order-total, .product-name, .product-total
+                    color: #171d61
+                    text-transform: uppercase
+
+        .woocommerce-thankyou-order-received
+            font-size: 1.5rem
+            font-weight: bold
+            color: #171d61
+            text-align: center
+        .woocommerce-thankyou-order-details
+            display: flex
+            padding-top: 1rem
+            justify-content: center
+            text-align: center
+            color: #171d61
+    .col2-set
+        margin: 2rem auto
+        .required
+            color: #171d61 !important
+        input, textarea
+            border-radius: 10px
+            color: #171d61
+            border: 1px solid #171d61
+            background-color: #fff
+            padding: 0.8rem 1rem
+        button
+            border-radius: 10px
+            background-color: #171d61 !important
+            border: none
+            color: #fff !important
+            padding: 0.8rem
+    .checkout
+        max-width: 1200px
+        margin: 0 auto !important
+        padding: 1rem
+        h3
+            text-align: center
+        .shop_table 
+            border-radius: 10px
+            border: 1px solid #171d61 !important
+            .cart-subtotal, .order-total, .product-name, .product-total
+                color: #171d61
+                text-transform: uppercase
+        .woocommerce-checkout-payment
+            background-color: #171d61 !important
+            color: #fff !important
+            .payment_box
+                color: #171d61 !important
+                background-color: #fff !important
+                &::before
+                    border: 1em solid #fff !important
+                    border-right-color: transparent !important
+                    border-left-color: transparent !important
+                    border-top-color: transparent !important
+            button
+                border-radius: 10px
+                color: #171d61
+                border: 1px solid #171d61
+                background-color: #fff
+                padding: 0.8rem 1rem
+                transition: all 0.1s
+
+                &:hover
+                    transition: all 0.2s
+
+    .woocommerce-button
+        border-radius: 10px
+        background-color: #171d61 !important
+        border: none
+        color: #fff !important
+        padding: 0.8rem
+        &:hover
+            opacity: 0.8
+    .woocommerce-form, .woocommerce-form-coupon
+        max-width: 1200px
+        margin: 2rem auto !important
+        border: 1px solid #171d61 !important
+        border-radius: 10px !important
+        input
+            border-radius: 10px
+            color: #171d61
+            border: 1px solid #171d61
+            background-color: #fff
+            padding: 0.8rem 1rem
+        button
+            border-radius: 10px
+            background-color: #171d61 !important
+            border: none
+            color: #fff !important
+            padding: 0.8rem
+    .product
+        max-width: 1200px
+        margin: auto
+        padding: 3rem 1rem
+        .related
+            display: none 
+        h1
+            text-align: left
+        .price
+            color: #171d61 !important
+        .posted_in
+            display: none
+        .woocommerce-tabs
+            border-top: 1px solid #171d61
+            .tabs
+                display: none
+        .cart
+            display: flex
+            justify-content: center
+            align-items: center
+            margin-top: 2rem
+            .quantity
+                input
+                    border-radius: 10px
+                    color: #171d61
+                    border: 1px solid #171d61
+                    background-color: #fff
+                    padding: 0.8rem 0
+            button
+                border-radius: 10px
+                background-color: #171d61 !important
+                border: none
+                olor: #fff !important
+                padding: 0.8rem
+
+                &:hover
+                    opacity: 0.8
+    .woocommerce-cart-form
+        padding: 3rem 1rem
+        table
+            border-radius: 10px
+            border: 1px solid #171d61
+            .product-name
+                a
+                    color: #171d61 !important
+                    text-decoration: none !important
+            input[type="number"]
+                border-radius: 10px
+                color: #171d61
+                border: 1px solid #171d61
+                background-color: #fff
+                padding: 0.5rem 0
+            .coupon
+                display: flex
+                align-items: center
+                justify-content: center
+                input
+                    width: 200px !important
+                    border-radius: 10px
+                    color: #171d61
+                    border: 1px solid #171d61 !important
+                    background-color: #fff
+                    padding: 0.8rem !important
+                .button
+                    border-radius: 10px
+                    color: #171d61 !important
+                    border: 1px solid #171d61
+                    background-color: #fff !important
+                    padding: 0.8rem
+                    transition: all 0.1s
+
+                    &:hover
+                        background-color: #171d61 !important
+                        color: #fff !important
+                        transition: all 0.2s
+            .button
+                border-radius: 10px
+                background-color: #171d61 !important
+                border: none
+                color: #fff !important
+                padding: 0.8rem !important
+    .cart_totals
+        padding: 1rem  
+        .shop_table 
+            border-radius: 10px
+            border: 1px solid #171d61 !important
+            .cart-subtotal, .order-total
+                color: #171d61
+                text-transform: uppercase
+    .checkout-button
+        border-radius: 10px !important
+        background-color: #171d61 !important
+    .woocommerce-notices-wrapper, .woocommerce-form-login-toggle, .woocommerce-form-coupon-toggle
+        ul, .woocommerce-info
+            background-color: #171d61
+            color: #fff
+            border-top: none
+
+            &::before
+                color:#fff
+            a
+                border-radius: 10px !important
+                background-color: #fff
+                color: #171d61
+                padding: 0.5rem
+                text-decoration: none
+                margin: 1rem
+
+                &:hover
+                    opacity: 0.8
+        .woocommerce-message
+            background-color: #171d61 !important
+            color: #fff
+            border-top: none
+
+            &::before
+                color:#fff
+            a
+                border-radius: 10px !important
+                background-color: #fff
+                color: #171d61
+
+                &:hover
+                    opacity: 0.8
+    .post-password-form, woocommerce-ResetPassword , .lost_reset_password
+        display: flex
+        width: 100%
+        min-height: calc(100vh - 320px)
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        padding: 1rem
+
+        p
+            font-size: 1.2rem
+            color: #171d61
+            text-align: center
+            padding: 1rem
+
+            input[type="password"], input[type="text"]
+                background-color: #fff
+                border-radius: 10px
+                border: 1px solid #171d61
+                color: #171d61
+                padding: 0.5rem
+                margin: 1rem
+            input[type="submit"], button[type="submit"]
+                background-color: #171d61
+                border-radius: 10px
+                border: none
+                color: #fff
+                padding: 1rem 2rem
+                margin: 1rem
+
+                &:hover
+                    opacity: 0.8
     .woocommerce-result-count
         display: none
     h1
@@ -874,10 +1213,15 @@ footer
             text-align: center;
             padding-bottom: 1rem
             .orderby
-                background-color: #171d61
-                color: #ffffff
+                color: #171d61
+                background-color: #ffffff
                 border-radius: 10px
+                transition: all 0.1s
                 padding: 1rem
+                &:hover
+                    background-color: #171d61
+                    color: #fff
+                    transition: all 0.1s
     .products
         display: grid
         grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) )
@@ -893,16 +1237,16 @@ footer
             overflow: hidden
             display: flex
             flex-direction: column
-            align-items: center
-            justify-content: center
+            align-items: center   
+            justify-content: space-between
             text-align: center
             width: 100% !important
             position: relative
 
             .woocommerce-loop-product__title
-                padding: 0 0.5rem
+                padding: 0 1rem !important
 
-            .add_to_cart_button 
+            .add_to_cart_button, .product_type_simple
                 margin: 2rem 
                 text-transform: uppercase
                 border: 1px solid #171d61
@@ -920,8 +1264,45 @@ footer
                     color: #fff
                     opacity: 1
                     transition: all 0.1s
-
-
+            .added_to_cart
+                border-radius: 10px
+                background-color: #171d61
+                color: #fff
+                padding: 1rem
+                margin-bottom: 1rem
+            .woocommerce-LoopProduct-link
+                width: 100%
+                height: 470px
+                img
+                    width: 100% !important
+                    height: 380px !important
+                    object-fit: cover
+                .price 
+                    margin-top: 1rem
+                    .woocommerce-Price-amount
+                        color: #171d61 !important
+                        font-weight: bold
 .woocommerce-MyAccount-content
     header
         position: relative
+@media screen and (max-width: 768px)
+    .woocommerce table.shop_table_responsive tr:nth-child(2n) td, .woocommerce-page table.shop_table_responsive tr:nth-child(2n) td
+        background-color: #171d6115
+    .woocommerce-notices-wrapper, .woocommerce-form-login-toggle, .woocommerce-form-coupon-toggle
+        ul, .woocommerce-info
+            a
+                margin: 1rem 0
+                display: block !important
+                width: 100%
+                left: 0
+    .post-password-form, woocommerce-ResetPassword , .lost_reset_password
+        input
+            margin: 0 !important
+    .woocommerce-account
+        .woocommerce
+            .woocommerce-MyAccount-navigation
+                *
+                   text-align: center
+
+
+
