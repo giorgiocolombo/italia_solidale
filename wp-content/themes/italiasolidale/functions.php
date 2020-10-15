@@ -58,7 +58,8 @@ function ITAS_allowed_block_types() {
         'webfactory/map',
         'acf/chosen-products',
         'acf/block-left-img',
-        'acf/block-right-img'        
+        'acf/block-right-img',        
+        'acf/contacts'        
 	);
     
 }
@@ -95,6 +96,16 @@ function ITAS_acf_init_block_types() {
             'category'          => 'formatting',
             'icon'              => 'align-right',
             'keywords'          => array( 'block-right-img', 'quote' ),
+        ));
+
+        acf_register_block_type(array(
+            'name'              => 'contacts',
+            'title'             => __('Blocco contatti'),
+            'description'       => __('Mostra un blocco con i contatti'),
+            'render_template'   => 'template_parts/blocks/contacts/contacts.php',
+            'category'          => 'design',
+            'icon'              => 'email',
+            'keywords'          => array( 'contacts', 'quote' ),
         ));
     }
 }
